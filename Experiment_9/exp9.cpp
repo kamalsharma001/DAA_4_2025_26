@@ -26,3 +26,8 @@ class Solution {
         return solve(sum1,sum2,0,arr,dp);
     }
 };
+
+/*
+  Time Complexity: 𝑂(𝑛⋅𝑆), where 𝑛 is the number of elements and 𝑆 is the total sum of the array.
+  Space Complexity: 𝑂(𝑛⋅𝑆) for the DP table.
+*/
