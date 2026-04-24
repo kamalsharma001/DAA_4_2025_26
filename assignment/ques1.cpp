@@ -21,7 +21,9 @@ void solve(int row, int n, vector<string> &board) {
 }
 
 int main() {
-    int n = 6;
+    int n;
+    cout << "Enter size of board : ";
+    cin >> n;
     col.assign(n,0);
     ld.assign(2*n,0);
     rd.assign(2*n,0);
